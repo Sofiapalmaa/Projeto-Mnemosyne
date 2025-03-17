@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Jost", sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    color: #464646;
+}
+
+.app-header{
+    height: 80px;
+
+    display: flex; /*Posiciona elementos lado a lado*/
+    justify-content: space-between; /*Joga os elementos para os cantos*/
+    align-items: center; /*Alinhar os elementos no centro de forma vertical*/
+
+    padding-left: 80px;
+    padding-right: 80px;
+    /*padding é o espaçamento interno (do header)*/
+
+    box-shadow: 0px 2px 4px #464646;
+    /*sombra -- 0px - sombra no eixo x / 2px - sombra no eixo y / 4px - é o borrado da sombra*/
+}
+
+.app-footer{
+    height: 80px;
+
+    display: flex; /*Posiciona elementos lado a lado*/
+    justify-content: center; /*Joga os elementos para os cantos*/
+    align-items: center; /*Alinhar os elementos no centro de forma vertical*/
+
+    padding-left: 80px;
+    padding-right: 80px;
+    /*padding é o espaçamento interno (do header)*/
+
+    box-shadow: 0px -2px 4px #464646;
+    /*sombra -- 0px - sombra no eixo x / 2px - sombra no eixo y / 4px - é o borrado da sombra*/
+}
+
+.links a{
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 35px;
+    text-transform: uppercase;
+}
+
+.app-main{
+    padding: 40px 80px; /*quando tem 2 valores é pq em cima é um valor ( o 1º) e em baixo outro (2º)*/
+}
+
+h1{
+    font-size: 70px;
+    font-weight: normal;
+    margin-bottom: 40px; /*margem entre o h1 e o próximo elemento*/
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh; /*chamar a tela inteira*/
+}

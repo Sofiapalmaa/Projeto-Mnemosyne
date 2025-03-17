@@ -1,0 +1,48 @@
+
+.imagem{
+    height: 300px; /*altura*/
+    width: 300px; /*largura*/
+
+    border-radius: 10px; /*arredondamento da img*/
+
+    background-image: url("../assets/imgs/bg1.png");
+    background-size: cover; /*vai tentar ajustar para pegar a imagem inteira*/  
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap; /*para ir quebrando quando for o caso de ter uma tela menor - Responsividade*/
+
+    margin-bottom: 80px;
+}
+
+.card{
+    margin-right: 40px; /*vai distanciar uma foto da outra*/
+    transition: all ease 0.3s; /*transição*/
+    margin-bottom: 40px;
+}
+
+.card:hover{
+    cursor: pointer; /*vai alterar da seta para a mão*/
+    scale: 1.05;  /*aumenta a escala do elemento*/
+} /*transição para quando passar o mouse por cima*/
+
+h2{
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.add{
+    height: 300px;
+    width: 300px;
+
+    border-radius: 10px;
+
+    background-color: #464646;
+
+    background-image: url("../assets/icons/plus-solid.svg");
+    background-size: 50%;
+    background-repeat: no-repeat; /*o ícone aparece repetindo, com essa função não repete mais */
+    background-position: center; /*alinhar o ícone no centro*/
+}
